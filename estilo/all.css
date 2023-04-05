@@ -1,0 +1,129 @@
+/* Todas as demais midias */
+
+/*------------------------------------------------------------------------------------------------*/
+/* IMPRESSÃO */
+@media print {
+    
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    body {
+        background-image: url(../img/back-print.jpg);
+    }
+
+    main h1 {
+        text-shadow: none;
+        color: black;
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#print {
+        display: block;
+    }
+
+    img#desktop {
+        display: none;
+    }
+
+    img#tv {
+        display: none;
+    }
+
+}
+
+/*------------------------------------------------------------------------------------------------*/
+/*TABLET*/
+@media screen and (min-width:768px) and (max-width:992px) {
+
+    body {
+        background-image: url(../img/back-tablet.jpg);
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: block;
+    }
+
+    img#print {
+        display: none;
+    }
+
+    img#desktop {
+        display: none;
+    }
+
+    img#tv {
+        display: none;
+    }
+
+}
+
+/*------------------------------------------------------------------------------------------------*/
+/*DESKTOP*/
+@media screen and (min-width:992px) and (max-width:1200px) {
+
+    body {
+        background-image: url(../img/back-pc.jpg);
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#print {
+        display: none;
+    }
+
+    img#desktop {
+        display: block;
+    }
+
+    img#tv {
+        display: none;
+    }
+
+}
+
+/*------------------------------------------------------------------------------------------------*/
+/*TV*/
+@media screen and (min-width:1200px) {
+
+    body {
+        background-image: url(../img/back-tv.jpg);
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#print {
+        display: none;
+    }
+
+    img#destop {
+        display: none;
+    }
+
+    img#tv {
+        display: block;
+    }
+}
